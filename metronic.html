@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>metronic</title>
+    <link href="css/fonts.css" rel="stylesheet" type="text/css">
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <script SRC="js/bootstrap.bundle.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="css/metronic.css" rel="stylesheet" type="text/css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+<body>
+<div >
+    <div class="row">
+        <div class="col-md-6 col-12  back position-relative">
+            <div>
+                <img src="images/sample-jsv.jpg" style="width: 103%">
+            </div>
+            <div class="surprize position-absolute" style="top:110px;right:30px;color: #7909f1">
+                ما<br>
+                یک سورپرایز<br>
+                برای شما<br>
+            </div>
+        </div>
+        <div class="col-md-6 ">
+            <div class="px-5">
+                <div class="mt-5 pe-5">
+                    <img src="images/icon/logo-4.png" class="pe-5">
+                </div>
+                <div class="p-4">
+                    <h2 class="fw-bold">ورود</h2>
+                    <div style="font-size: 20px;margin-bottom: 20px">
+                        تازه وارد هستید؟
+                        <a href="" class="text-decoration-none">
+                            ساخت اکانت
+                        </a>
+                    </div>
+                    <div class="px-4">
+                        <form method="post" action="login.php">
+                            <div>
+                                <label class="p-3 fw-bold">ایمیل شما </label>
+                                <input type="text" placeholder="ایمیل خود را وارد کنید..." class="w-100 rounded-3 p-3 inputI" name="email">
+                            </div>
+                            <div>
+                                <label class="p-3 fw-bold">کلمه عبور</label>
+                                <a href="" class="text-decoration-none float-start pt-3">رمز عبور خود را فراموش کرده اید؟</a>
+                                <input type="password" placeholder="کلمه عبور خود را وارد کنید" class="w-100 rounded-3 p-3 inputI" name="pass">
+                            </div>
+                            <div>
+                                <button class="btn px-3 mt-3" style="background-color: #addaf6">
+                                    ورود با گوگل
+                                    <img src="images/Google.png" style="width:20px;">
+                                </button>
+                                <button class="btn btn-primary px-4 mt-3">
+                                    ورود
+                                </button>
+                            </div>
+                            <br><br><br><br><br><br>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script>
+    Swal.fire({
+        icon: 'warning',
+        title: '!خطایی رخ داد',
+        text: 'نام کاربری یا کلمه عبور اشتباه است',
+        footer: '<a href="index.html" class="text-decoration-none">رفتن به صفحه اصلی سایت</a>'
+})
+</script>
+
+
+</body>
+</html>

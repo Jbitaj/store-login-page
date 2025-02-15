@@ -1,0 +1,26 @@
+body, div,a,p,input,label{
+    text-align: right;
+}
+label{
+font-size: 18px;
+}
+.inputI{
+    font-size: 17px;
+    background-color: whitesmoke;
+    outline-color: #0c63e4;
+    border: none;
+}
+.surprize{
+    font-size:56px;
+    font-weight: bold;
+    text-align: right;
+}
+.back{
+    background-image: linear-gradient(to bottom, #ffc0fa 0%,blue 100%);
+    height: 100%;
+}
+@media only screen and (max-width: 600px) {
+    .Img{
+        width: 100%;
+    }
+}

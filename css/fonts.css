@@ -1,0 +1,21 @@
+@font-face{
+    font-family: 'vazir';
+    src: url('../font/vazir-fonts/Vazir.ttf') format('truetype'),
+    url('../font/vazir-fonts/Vazir.woff') format('woff'),
+    url('../font/vazir-fonts/Vazir.woff2') format('woff2');
+}
+@font-face{
+    font-family: 'yekan';
+    src: url('../font/yekan-font/Yekan.ttf') format('truetype'),
+    url('../font/yekan-font/Yekan.woff') format('woff');
+}
+
+@font-face{
+    font-family: 'tanha';
+    src: url('../font/tanha-font-v0.9/Tanha.ttf') format('truetype'),
+    url('../font/tanha-font-v0.9/Tanha.woff') format('woff'),
+    url('../font/tanha-font-v0.9/Tanha.woff2') format('woff2');
+}
+body,div,input,span,p,button{
+    font-family: tanha;
+}

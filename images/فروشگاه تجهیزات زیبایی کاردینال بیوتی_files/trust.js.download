@@ -1,0 +1,9 @@
+var idpayURL = new URL(document.currentScript.src);
+if (idpayURL.searchParams.has("id")) {
+    var idpayID = idpayURL.searchParams.get("id")
+    var idpayWidth = idpayURL.searchParams.has("width") ? idpayURL.searchParams.get("width") : "64";
+    var idpayDomain = window.location.origin;
+    var idpayTrustURL = `https://idpay.ir/cert?id=${idpayID}&domain=${idpayDomain}`;
+    var idpayTrustImgWidth = `width: ${idpayWidth}px`;
+    document.write(`<a id="idpay-cert" href="${idpayTrustURL}" target="blank"><img src="https://static.idpay.ir/logo/cert.svg" style="${idpayTrustImgWidth} !important" /></a>`);
+}

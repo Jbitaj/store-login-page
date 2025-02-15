@@ -1,0 +1,115 @@
+.mobileMenu{
+        display: none;}
+@media only screen and (max-width: 600px) {
+    .maxWidth{
+    display: none;
+    }
+    .mobileMenu{
+        display:block;
+    }
+    .title{
+        padding:20px 5px 10px ;
+    }
+
+    .sidepanel  {
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  height: 800px;
+  top: 0;
+  right: 0;
+  background-color: whitesmoke;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidepanel a {
+  padding: 8px 15px 15px 10px;
+  text-decoration: none;
+  font-size: 18px;
+  color: #818181;
+  display: block;
+  transition: 0.1s;
+}
+
+.sidepanel a:hover {
+  color: #210505;
+}
+
+.sidepanel .closebtn {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 24px;
+}
+
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  background-color:white ;
+  color:#111 ;
+  padding: 10px 15px 0;
+  border: none;
+}
+
+.openbtn:hover {
+  background-color:#444;
+}
+}
+
+
+*{
+    box-sizing: border-box;
+}
+.zoom{
+    padding: 20px;
+}
+.zoom:hover{
+    padding: 5px;
+    transition: 0.2s;
+}
+.backgr{
+    background-color: white;
+}
+.title{
+    background-color: white;
+    padding:20px 5px 45px ;
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+}
+.search{
+    border: none;
+    font-size: 18px;
+    outline: none;
+    width: 85%;
+}
+.search-1{
+    position: absolute;
+    top: 25px;
+    right: 300px;
+}
+.navar{
+    font-size: 18px;
+    position: absolute;
+    bottom: 5px;}
+.navar a{
+    text-decoration: none;
+    color: black;
+}
+.navar i{
+    color: gray;
+}
+.index{
+    padding: 0 15px;
+}
+.index:hover{
+    border-bottom: 3px solid red;
+    transition: 0.3s;
+    font-weight: bold;
+}
+.iconSize{
+    width: 35%;
+}

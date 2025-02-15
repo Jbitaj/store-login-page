@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>فروشگاه مورفان</title>
+    <link href="css/fonts.css" rel="stylesheet" type="text/css">
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <script SRC="js/bootstrap.bundle.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="css/shopping.css" rel="stylesheet" type="text/css">
+</head>
+<body style="direction: rtl;background-color: #f4dce1">
+<div class="title">
+    <img src="images/banner/logo_cbe.jpg">
+    <div class="float-start btn btn-danger ms-2">ورود/ثبت نام</div>
+    <div class="border w-50 rounded-2 search-1 maxWidth">
+        <i class="fa fa-search float-start btn btn-danger" style="font-size: 23px"></i>
+        <div class="p-1">
+            <form method="get" action="">
+                <input type="text" placeholder="جستجو کنید" class="search">
+            </form>
+        </div>
+    </div>
+    <div class="navar maxWidth">
+        <a href="" class="index">
+            <i class="fa fa-home"></i>
+            <span href="" >خانه </span>
+        </a>
+        <a href="" class="index">
+            <i class="material-icons" style="font-size:18px">menu</i>
+            <span href="" >منو </span>
+        </a>
+        <a href="" class="index">
+            <i class="fa fa-book"></i>
+            <span >مقالات </span>
+        </a>
+        <a href="" class="index">
+            <i class="fa fa-phone"></i>
+            <span>تماس با ما</span>
+        </a>
+        <a href="" class="index">
+            <i class="fa fa-users"></i>
+            <span >درباره ما</span>
+        </a>
+    </div>
+    <div class="position-absolute btn btn-outline-warning fa fa-shopping-cart" style="left: 15px;top:90px">
+        <span>
+            سبد خرید
+        </span>
+    </div>
+    <div id="mySidepanel" class="sidepanel mobileMenu">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+        <a href="#"> خانه  <i class="fa fa-home"></i></a>
+        <a href="#"> مقالات <i class="fa fa-book"></i></a>
+        <a href="#"> تماس با ما <i class="fa fa-phone"></i></a>
+        <a href="#">درباره ما <i class="fa fa-users"></i></a>
+    </div>
+    <div><button class="openbtn mobileMenu" onclick="openNav()">☰</button></div>
+
+</div>
+<div class="px-5" style="margin-top: 150px">
+    <div class="p-4">
+        <div class="row">
+        <div class="col-12 col-md-8">
+            <div>
+                <img src="images/banner/9.png" class="w-100 shadow rounded-3">
+            </div>
+        </div>
+        <div class="col-12 col-md-4 ">
+            <div class="mb-3 mt-2 ">
+                <img src="images/banner/2.png" class="w-100 shadow rounded-3">
+            </div>
+            <div class="mb-3 mt-1">
+                <img src="images/banner/4.png" class="w-100 shadow rounded-3">
+            </div>
+            <div class="mb-3 mt-1">
+                <img src="images/banner/3.png" class="w-100 shadow rounded-3">
+            </div>
+
+        </div>
+        </div>
+    </div>
+    <div class="px-4">
+        <div class="row">
+            <div class="col-12 col-md-6">
+                <div class="row">
+                    <div class="col-3" style="cursor: pointer">
+                        <img src="images/banner/11.png" class="w-100">
+                        <div class="fw-bold text-center"><span>مواد غذایی</span></div>
+                    </div>
+                    <div class="col-3" style="cursor: pointer">
+                        <img src="images/banner/22.png" class="w-100">
+                        <div class="fw-bold text-center"><span>نوشیدنی و دمنوش ها</span></div>
+                    </div>
+                    <div class="col-3" style="cursor: pointer">
+                        <img src="images/banner/33.png" class="w-100">
+                        <div class="fw-bold text-center"><span>خوارو بار</span></div>
+                    </div>
+                    <div class="col-3" style="cursor: pointer">
+                        <img src="images/banner/44.png" class="w-100">
+                        <div class="fw-bold text-center"><span> آرایشی و بهداشتی</span></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6">
+                <div class="row">
+                    <div class="col-3 " style="cursor: pointer">
+                        <img src="images/banner/55.png" class="w-100">
+                        <div class="fw-bold text-center"><span>میوه و سبزیجات</span></div>
+                    </div>
+                    <div class="col-3" style="cursor: pointer">
+                        <img src="images/banner/66.png" class="w-100">
+                        <div class="fw-bold text-center"><span> ابزار و ملزومات </span></div>
+                    </div>
+                    <div class="col-3" style="cursor: pointer">
+                        <img src="images/banner/77.png" class="w-100">
+                        <div class="fw-bold text-center"><span>لوازم التحریر</span></div>
+                    </div>
+                    <div class="col-3" style="cursor: pointer">
+                        <img src="images/banner/88.png" class="w-100">
+                        <div class="fw-bold text-center"><span> آرایشی و بهداشتی</span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="border rounded-5 m-3 p-3 bg-light">
+        <div class="row">
+            <div class="col-md-12 px-4 fw-bold pb-3 border-bottom">
+                <i class="fa fa-circle" style="font-size:9px"></i>
+                <i class="fa fa-circle"></i>
+                <span>
+                    پر فروش ترین ها
+                </span>
+                <a href="" class="btn btn-outline-danger float-start">
+                    مشاهده همه
+                </a>
+            </div>
+        </div>
+        <div class="px-5 pt-3">
+        <div class="row">
+            <div class="col-12 col-md-3 mb-3">
+                <div class="border shadow rounded-5 backgr " style="cursor: pointer">
+                    <div class="zoom">
+                        <img src="images/banner/p5.jpg" class="w-100 rounded-5">
+                    </div>
+                    <div class="px-4">
+                    <span class="fw-bold text-danger">
+                        سرم آنتی آکنه بیوآکوا
+                    </span>
+                </div>
+                    <div class="py-2 px-4">
+                    <span class="fw-bold text-muted" style="font-size: small">
+                        سرم پوست
+                    </span>
+                </div>
+                    <div class="px-4">
+                    <span class="fw-bold text-dark">
+                        69,000 تومان
+                    </span>
+                </div>
+                    <div class=" py-3 mb-5 px-4" style="height: 50px">
+                    <a href="#" class="btn float-end " data-bs-toggle="tooltip" data-bs-placement="bottom" title="افزودن به سبد خرید" style="background-color: #fb4e5c">
+                        <i class="fa fa-shopping-cart" style="font-size: 22px" ></i>
+                    </a>
+                    <a href="#" class="btn float-start" data-bs-toggle="tooltip" data-bs-placement="bottom" title="اشتراک گذاری" style="background-color: #9153ec">
+                        <i class="fa fa-share-alt" style="font-size: 22px"></i>
+                    </a>
+                </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-3 mb-3">
+                <div class=" border shadow rounded-5 backgr" style="cursor: pointer">
+                    <div class="zoom">
+                    <img src="images/banner/p2.jpg" class="w-100 rounded-5">
+                </div>
+                    <div class="px-4">
+                    <span class="fw-bold text-danger">
+                        براش سیلیکونی ماسک
+                    </span>
+                </div>
+                    <div class="py-2 px-4">
+                    <span class="fw-bold text-muted" style="font-size: small">
+                        محصولات جانبی آرایش
+                    </span>
+                </div>
+                    <div class="px-4">
+                    <span class="fw-bold text-dark">
+                        11,000 تومان
+                    </span>
+                </div>
+                    <div class=" py-3 mb-5 px-4" style="height: 50px">
+                    <a href="#" class="btn float-end" data-bs-toggle="tooltip" data-bs-placement="bottom" title="افزودن به سبد خرید" style="background-color: #fb4e5c">
+                        <i class="fa fa-shopping-cart" style="font-size: 22px"></i>
+                    </a>
+                    <a href="#" class="btn float-start" data-bs-toggle="tooltip" data-bs-placement="bottom" title="اشتراک گذاری" style="background-color: #9153ec">
+                        <i class="fa fa-share-alt" style="font-size: 22px"></i>
+                    </a>
+                </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-3 mb-3">
+                <div class=" border shadow rounded-5 backgr" style="cursor: pointer">
+                    <div class="zoom">
+                    <img src="images/banner/p3.jpg" class="w-100 rounded-5">
+                </div>
+                    <div class="px-4">
+                    <span class="fw-bold text-danger">
+                        آیس پد عینکی طرح میوه
+                    </span>
+                </div>
+                    <div class="py-2 px-4">
+                    <span class="fw-bold text-muted" style="font-size: small">
+                        ماسک دور چشم
+                    </span>
+                </div>
+                    <div class="px-4">
+                    <span class="fw-bold text-dark">
+                        22,000 تومان
+                    </span>
+                </div>
+                    <div class=" py-3 mb-5 px-4" style="height: 50px">
+                    <a href="#" class="btn float-end" data-bs-toggle="tooltip" data-bs-placement="bottom" title="افزودن به سبد خرید" style="background-color: #fb4e5c">
+                        <i class="fa fa-shopping-cart" style="font-size: 22px"></i>
+                    </a>
+                    <a href="#" class="btn float-start" data-bs-toggle="tooltip" data-bs-placement="bottom" title="اشتراک گذاری" style="background-color: #9153ec">
+                        <i class="fa fa-share-alt" style="font-size: 22px"></i>
+                    </a>
+                </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-3 mb-3">
+                <div class=" border shadow rounded-5 backgr" style="cursor: pointer">
+                    <div class="zoom">
+                    <img src="images/banner/p4.jpg" class="w-100 rounded-5">
+                </div>
+                    <div class="px-4">
+                    <span class="fw-bold text-danger">
+                        سرم جوانساز خاویار Venzen
+                    </span>
+                </div>
+                    <div class="py-2 px-4">
+                    <span class="fw-bold text-muted" style="font-size: small">
+                        سرم پوست
+                    </span>
+                </div>
+                    <div class="px-4">
+                    <span class="fw-bold text-dark">
+                        69,000 تومان
+                    </span>
+                </div>
+                    <div class=" py-3 mb-5 px-4" style="height: 50px">
+                    <a href="#" class="btn float-end" data-bs-toggle="tooltip" data-bs-placement="bottom" title="افزودن به سبد خرید" style="background-color: #fb4e5c">
+                        <i class="fa fa-shopping-cart" style="font-size: 22px"></i>
+                    </a>
+                    <a href="#" class="btn float-start" data-bs-toggle="tooltip" data-bs-placement="bottom" title="اشتراک گذاری" style="background-color: #9153ec">
+                        <i class="fa fa-share-alt" style="font-size: 22px"></i>
+                    </a>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div class="px-4">
+        <div class="row">
+            <div class="col-12 col-md-6">
+                <img src="images/banner/5.jpg" class="shadow rounded-5 border w-100">
+            </div>
+            <div class="col-12 col-md-6">
+                <img src="images/banner/6.jpg" class="shadow rounded-5 border w-100">
+            </div>
+        </div>
+    </div>
+    <div class="border rounded-5 m-3 p-3 bg-light">
+        <div class="row">
+            <div class="col-md-12 px-4 fw-bold pb-3 border-bottom">
+                <i class="fa fa-circle" style="font-size:9px"></i>
+                <i class="fa fa-circle"></i>
+                <span>
+                    حراجی ها
+                </span>
+                <a href="" class="btn btn-outline-danger float-start">
+                    مشاهده همه
+                </a>
+            </div>
+        </div>
+        <div class="px-5 pt-3">
+        <div class="row">
+            <div class="col-12 col-md-3 mb-3">
+                <div class="border shadow rounded-5 backgr " style="cursor: pointer">
+                    <div class="zoom">
+                        <img src="images/banner/p5.jpg" class="w-100 rounded-5">
+                    </div>
+                    <div class="px-4">
+                    <span class="fw-bold text-danger">
+                        سرم آنتی آکنه بیوآکوا
+                    </span>
+                </div>
+                    <div class="py-2 px-4">
+                    <span class="fw-bold text-muted" style="font-size: small">
+                        سرم پوست
+                    </span>
+                </div>
+                    <div class="px-4">
+                    <span class="fw-bold text-dark">
+                        69,000 تومان
+                    </span>
+                </div>
+                    <div class=" py-3 mb-5 px-4" style="height: 50px">
+                    <a href="#" class="btn float-end " data-bs-toggle="tooltip" data-bs-placement="bottom" title="افزودن به سبد خرید" style="background-color: #fb4e5c">
+                        <i class="fa fa-shopping-cart" style="font-size: 22px" ></i>
+                    </a>
+                    <a href="#" class="btn float-start" data-bs-toggle="tooltip" data-bs-placement="bottom" title="اشتراک گذاری" style="background-color: #9153ec">
+                        <i class="fa fa-share-alt" style="font-size: 22px"></i>
+                    </a>
+                </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-3 mb-3">
+                <div class=" border shadow rounded-5 backgr" style="cursor: pointer">
+                    <div class="zoom">
+                    <img src="images/banner/p2.jpg" class="w-100 rounded-5">
+                </div>
+                    <div class="px-4">
+                    <span class="fw-bold text-danger">
+                        براش سیلیکونی ماسک
+                    </span>
+                </div>
+                    <div class="py-2 px-4">
+                    <span class="fw-bold text-muted" style="font-size: small">
+                        محصولات جانبی آرایش
+                    </span>
+                </div>
+                    <div class="px-4">
+                    <span class="fw-bold text-dark">
+                        11,000 تومان
+                    </span>
+                </div>
+                    <div class=" py-3 mb-5 px-4" style="height: 50px">
+                    <a href="#" class="btn float-end" data-bs-toggle="tooltip" data-bs-placement="bottom" title="افزودن به سبد خرید" style="background-color: #fb4e5c">
+                        <i class="fa fa-shopping-cart" style="font-size: 22px"></i>
+                    </a>
+                    <a href="#" class="btn float-start" data-bs-toggle="tooltip" data-bs-placement="bottom" title="اشتراک گذاری" style="background-color: #9153ec">
+                        <i class="fa fa-share-alt" style="font-size: 22px"></i>
+                    </a>
+                </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-3 mb-3">
+                <div class=" border shadow rounded-5 backgr" style="cursor: pointer">
+                    <div class="zoom">
+                    <img src="images/banner/p3.jpg" class="w-100 rounded-5">
+                </div>
+                    <div class="px-4">
+                    <span class="fw-bold text-danger">
+                        آیس پد عینکی طرح میوه
+                    </span>
+                </div>
+                    <div class="py-2 px-4">
+                    <span class="fw-bold text-muted" style="font-size: small">
+                        ماسک دور چشم
+                    </span>
+                </div>
+                    <div class="px-4">
+                    <span class="fw-bold text-dark">
+                        22,000 تومان
+                    </span>
+                </div>
+                    <div class=" py-3 mb-5 px-4" style="height: 50px">
+                    <a href="#" class="btn float-end" data-bs-toggle="tooltip" data-bs-placement="bottom" title="افزودن به سبد خرید" style="background-color: #fb4e5c">
+                        <i class="fa fa-shopping-cart" style="font-size: 22px"></i>
+                    </a>
+                    <a href="#" class="btn float-start" data-bs-toggle="tooltip" data-bs-placement="bottom" title="اشتراک گذاری" style="background-color: #9153ec">
+                        <i class="fa fa-share-alt" style="font-size: 22px"></i>
+                    </a>
+                </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-3 mb-3">
+                <div class=" border shadow rounded-5 backgr" style="cursor: pointer">
+                    <div class="zoom">
+                    <img src="images/banner/p4.jpg" class="w-100 rounded-5">
+                </div>
+                    <div class="px-4">
+                    <span class="fw-bold text-danger">
+                        سرم جوانساز خاویار Venzen
+                    </span>
+                </div>
+                    <div class="py-2 px-4">
+                    <span class="fw-bold text-muted" style="font-size: small">
+                        سرم پوست
+                    </span>
+                </div>
+                    <div class="px-4">
+                    <span class="fw-bold text-dark">
+                        69,000 تومان
+                    </span>
+                </div>
+                    <div class=" py-3 mb-5 px-4" style="height: 50px">
+                    <a href="#" class="btn float-end" data-bs-toggle="tooltip" data-bs-placement="bottom" title="افزودن به سبد خرید" style="background-color: #fb4e5c">
+                        <i class="fa fa-shopping-cart" style="font-size: 22px"></i>
+                    </a>
+                    <a href="#" class="btn float-start" data-bs-toggle="tooltip" data-bs-placement="bottom" title="اشتراک گذاری" style="background-color: #9153ec">
+                        <i class="fa fa-share-alt" style="font-size: 22px"></i>
+                    </a>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div class="px-4 mb-5">
+        <div class="row">
+            <div class="col-12 col-md-12">
+                <img src="images/banner/banner.jpg" class="shadow rounded-5 border w-100">
+            </div>
+        </div>
+    </div>
+</div>
+<div class="bg-light py-5 border-top ">
+    <div class="row">
+        <div class="col-md-1">
+        </div>
+        <div class="col-4 col-md-2 position-relative " style="height: 120px">
+            <div class="text-center ">
+                <img src="images/icon/delivery.svg" class="w-50">
+            </div>
+            <div class="pe-5 w-100 position-absolute bottom-0 start-0">
+                <span>
+                    تحویل اکسپرس
+                </span>
+            </div>
+        </div>
+        <div class="col-4 col-md-2 position-relative " style="height: 120px">
+            <div class="text-center ">
+                <img src="images/icon/contact-us.svg" class="iconSize">
+            </div>
+            <div class="text-center w-100 position-absolute bottom-0 start-0">
+                <span>
+                    پشتیبانی 24 ساعته
+                </span>
+            </div>
+        </div>
+        <div class="col-4 col-md-2 position-relative " style="height: 120px">
+            <div class="text-center ">
+                <img src="images/icon/payment-terms.svg" class="iconSize">
+            </div>
+            <div class="text-center w-100 position-absolute bottom-0 start-0">
+                <span>
+                    پرداخت درمحل
+                </span>
+            </div>
+        </div>
+        <div class="col-4 col-md-2 position-relative " style="height: 120px">
+            <div class="text-center ">
+                <img src="images/icon/return-policy.svg" class="iconSize">
+            </div>
+            <div class="text-center w-100 position-absolute bottom-0 start-0">
+                <span>
+                    ۷ روز ضمانت بازگشت
+                </span>
+            </div>
+        </div>
+        <div class="col-4 col-md-2 position-relative " style="height: 120px">
+            <div class="text-center ">
+                <img src="images/icon/origin-guarantee.svg" class="iconSize">
+            </div>
+            <div class="text-center w-100 position-absolute bottom-0 start-0">
+                <span>
+                    ضمانت اصل بودن کالا
+                </span>
+            </div>
+        </div>
+        <div class="col-md-1">
+        </div>
+
+    </div>
+    <div class="p-5">
+        <div class="row">
+            <div class="col-lg-3 col-md-6 col-12">
+                <span class="fw-bold">راهنمای خرید از کاردینال بیوتی</span><br><br>
+                <span >نحوه ثبت سفارش </span><br>
+                <span >رویه ارسال سفارش</span><br>
+                <span >شیوه های پرداخت</span>
+            </div>
+            <div class="col-lg-3 col-md-6 col-12 pt-3">
+                <span class="fw-bold">خدمات مشتریان</span><br><br>
+                <span >پاسخ به پرسش‌های متداول</span><br>
+                <span >تماس با ما</span><br>
+                <span >درباره ما</span>
+            </div>
+            <div class="col-lg-3">
+            </div>
+            <div class="col-lg-3 col-md-6 col-12">
+                <div><span>از تخفیف‌ها و جدیدترین‌های فروشگاه باخبر شوید:</span></div><br>
+                <div style="border:1px solid black;border-radius: 5px;background-color: white;width: 80%; height: 40px">
+                    <form method="get" action="">
+                        <input type="text" placeholder="ایمیل خود را وارد کنید..." style="width: 73%; outline: none;border: none;font-size: 18px;border-radius: 5px">
+                        <a href="" class="btn btn-danger fw-bold float-start">ارسال</a>
+                    </form>
+                </div>
+                <div><br><span>ما را در شبکه های اجتماعی دنبال کنید.</span></div><br>
+                <div class="pe-5">
+                    <a href="" class="btn btn-danger rounded-5">
+                        <i class="fa fa-instagram" style="font-size: 30px"></i>
+                    </a>
+                    <a href="" class="btn btn-danger rounded-5">
+                        <i class="fa fa-whatsapp" style="font-size: 30px"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="p-5">
+        <span style="font-size: 20px; font-weight: bold">هفت روز هفته ، 24 ساعت شبانه‌روز پاسخگوی شما هستیم.</span>
+    </div>
+    <div class="p-5">
+        <div class="row">
+            <div class="col-md-6 col-12">
+                <span style="font-size: 18px; font-weight: bold;padding-bottom: 10px">فروشگاه تجهیزات زیبایی کاردینال بیوتی، بررسی، انتخاب و خرید آنلاین</span><br>
+                <span style="font-size: 14px">کاردینال بیوتی با ارائه خدمات به بهترین شکل سعی دارد بهترین تجربه خرید را برای شما مشتریان عزیز رقم بزند.</span>
+            </div>
+            <div class="col-md-6 col-12">
+                <img src="images/banner/namad.png" class="border rounded-5">
+                <img src="images/banner/cert.svg" class="border rounded-5"style="width: 15%">
+            </div>
+            <div style="border-top:1px solid black;text-align: center;font-size: 14px;margin-top: 20px">
+                <div class="mt-2">
+                     استفاده از مطالب فروشگاه اینترنتی کاردینال بیوتی فقط برای مقاصد غیرتجاری و با ذکر منبع بلامانع است.
+                </div>
+                <div>
+                    © 2022 - طراحی و توسعه توسط تیم فنی مهندسی پاسکال
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+<script>
+    var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+    var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl)
+    {return new bootstrap.Tooltip(tooltipTriggerEl)})
+    function openNav() {
+  document.getElementById("mySidepanel").style.width = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidepanel").style.width = "0";
+}
+</script>
+</body>
+</html>

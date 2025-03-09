@@ -19,7 +19,7 @@ This project focuses on creating a seamless and user-friendly login interface fo
    ```bash
    git clone https://github.com/Jbitaj/store-login-page.git
 
-## ScreenShots:
+### ScreenShots:
 ![image](https://github.com/user-attachments/assets/28573613-6bf9-44e6-991b-82da22cc2df4)
 ![image](https://github.com/user-attachments/assets/f21b5a6e-ae78-4160-bf0c-3aa916dbfac8)
 ![image](https://github.com/user-attachments/assets/dbd59f2f-eb86-4c4d-a7df-509cc34d4c0c)
